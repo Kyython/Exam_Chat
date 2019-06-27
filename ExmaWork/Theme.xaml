@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ExmaWork">
+    <Style x:Key="ButtonStyle" TargetType="Button">
+        <Style.Setters>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="Background" Value="#363333"/>
+            <Setter Property="Foreground" Value="#dbd8e3"/>
+            <Setter Property="FontFamily" Value="Comic sans MS"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style.Setters>
+    </Style>
+    <Style x:Key="TextBoxStyle" TargetType="TextBox">
+        <Style.Setters>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="Background" Value="#363333"/>
+            <Setter Property="Foreground" Value="#dbd8e3"/>
+            <Setter Property="FontFamily" Value="Comic sans MS"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style.Setters>
+    </Style>
+    <Style x:Key="GridStyle" TargetType="Grid">
+        <Style.Setters>
+            <Setter Property="Background" Value="#313131">
+            </Setter>
+        </Style.Setters>
+    </Style>
+</ResourceDictionary>
